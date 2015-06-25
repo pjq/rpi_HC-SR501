@@ -67,6 +67,7 @@ The code for the Java motion sensor client is found in the org.jboss.summit2015.
 ![imag](./images/Pi4jHeader.png)
 
 To run the Java client, use the Gradle script and run:
+NOTE: make sure to use the latest version of Gradle (Milestone 5 or later), this is not the one currently provided by apt-get.
 
 	root@raspberrypi:/media/github/rpi_HC-SR501# gradle motionLoop
 	Starting a new Gradle Daemon for this build (subsequent builds will be faster).
